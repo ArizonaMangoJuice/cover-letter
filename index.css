@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 5px 10px 18px #ccc;
+    margin-bottom: 150px;
+}
+
+.top-bar{
+    flex: 1;
+    height: 275px;
+    flex-basis: 100%;
+    background: #333;
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-bar{
+    align-self: flex-start;
+    flex: 2;
+    width: 30%;
+    flex-basis: 30%;
+    display: inline-block;
+    height: 900px;
+    background: #d1ddd3;
+}
+
+.right-bar{
+    align-self: flex-end;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    background: #fcfcfc;
+    /* justify-content: center; */
+}
+
+.main-title{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 10px;
+    font-size: 36px;
+    color: #fff;
+    border: 2px solid #fff;
+    /* display: inline-block; */
+    text-align: center;
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    /* margin: 85px; */
+    /* margin-top: 60px; */
+    /* margin-bottom: 105px; */
+    width: 50%;
+    margin:auto;
+    margin-top:0;
+    margin-bottom: 0;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* align-content: center; */
+}
+
+.role{
+    color: white;
+    /* border: 1px solid white; */
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 10px;
+    font-size: 16px;
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.bottom-border{
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 1px solid #fff;
+    width: 320px;
+}
+
+.left-bar{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.left-bar-title{
+    padding: 0 35px 0 0;
+    font-size: 20px;
+    align-self: flex-end;
+    /* margin: 10px 0 10px 0; */
+    letter-spacing: 5px;
+}
+
+.left-bar-title:first-of-type{
+    margin-top: 120px;
+}
+
+.specializations{
+    align-self: flex-end;
+    font-size: 14px;
+    width: 220px;
+    text-align: end;
+    padding: 0px 35px 0 0;
+}
+
+
+.right-bar-heading{
+    padding: 35px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.right-bar-heading:first-of-type{
+    margin-top: 120px;
+}
+
+.main-padding{
+    padding: 35px;
+}
