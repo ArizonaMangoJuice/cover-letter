@@ -138,4 +138,6 @@
 
 .main-padding{
     padding: 35px;
+    padding-top: 0;
+    padding-bottom: 15px;
 }
