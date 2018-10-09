@@ -136,8 +136,21 @@
     margin-top: 120px;
 }
 
+.right-bar-regards{
+    padding-left: 35px;
+}
+
+.signature{
+    font-family: 'Great Vibes', cursive;
+    font-size: 22px;
+    padding-left: 35px;
+    font-weight: bold;
+    margin-top: 7.5px;
+}
+
 .main-padding{
     padding: 35px;
     padding-top: 0;
     padding-bottom: 15px;
+    letter-spacing: -1px;
 }
