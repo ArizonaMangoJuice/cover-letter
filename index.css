@@ -1,3 +1,11 @@
+:root{
+    --text-color: #B94264;
+    --main-bg: #FAFAFA;
+    --container-bg: #F0F0F0;
+    --highligh-bg: rgba(218,161,177, .8);
+    /* DAA1B1  */
+    /* #FAFAFA */
+}
 *{
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
@@ -5,6 +13,12 @@
 
 body{
     margin: 0;
+    padding: 125px 250px 250px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--main-bg);
 }
 
 a{
@@ -18,15 +32,15 @@ a{
     /* border: 1px solid black; */
     flex-direction: row;
     flex-wrap: wrap;
-    box-shadow: 5px 10px 18px #ccc;
-    margin-bottom: 150px;
+    box-shadow: 5px 10px 18px var(--highligh-bg);
+    /* margin-bottom: 150px; */
 }
 
 .top-bar{
     flex: 1;
     height: 275px;
     flex-basis: 100%;
-    background: #333;
+    background: var(--container-bg);
     display: flex;  
     justify-content: center;
     flex-direction: column;
@@ -48,7 +62,7 @@ a{
     display: flex;
     flex-direction: column;
     height: 850px;
-    background: #fcfcfc;
+    background: var(--container-bg);
     /* justify-content: center; */
 }
 
@@ -56,8 +70,8 @@ a{
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 10px;
     font-size: 36px;
-    color: #fff;
-    border: 2px solid #fff;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
     /* display: inline-block; */
     text-align: center;
     padding: 15px;
@@ -78,7 +92,7 @@ a{
 }
 
 .role{
-    color: white;
+    color: var(--text-color);
     /* border: 1px solid white; */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 10px;
@@ -99,13 +113,14 @@ a{
     margin: auto;
     margin-bottom: 0;
     margin-top: 0;
-    border: 1px solid #fff;
+    border: 1px solid var(--text-color);
     width: 320px;
 }
 
 .left-bar{
     display: flex;
     flex-direction: column;
+    background-color: var(--highligh-bg);
     /* justify-content: center; */
 }
 
@@ -113,8 +128,11 @@ a{
     padding: 0 35px 0 0;
     font-size: 20px;
     align-self: flex-end;
+    font-weight: bolder;
     /* margin: 10px 0 10px 0; */
+    margin-bottom: 5px;
     letter-spacing: 5px;
+    color: var(--text-color)
 }
 
 .left-bar-title:first-of-type{
@@ -130,7 +148,7 @@ a{
     margin-bottom: 0;
     margin-top: 14px;
     text-decoration: none;
-    color: #000;
+    color: var(--container-bg);
 }
 
 .underline{
